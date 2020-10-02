@@ -1,13 +1,57 @@
-@import "~normalize.css";
-
-@import "_variables";
-@import "modules/hello.scss";
-
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  background-color: #ccc;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 10px;
 }
+div {
+  background-color: grey;
+  height: 13vh;
+}
+
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.blueviolet {
+  background-color: blueviolet;
+}
+
+.green {
+  background-color: green;
+}
+
+.lightsalmon {
+  background-color: lightsalmon;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+
