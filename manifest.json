@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "Memory",
+  "short_name": "Memory",
+  "theme_color": "#ccc",
+  "background_color": "#ccc",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/wtf-webpack-starter/",
+  "scope": "/Memory/",
+  "start_url": "/Memory/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
